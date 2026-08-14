@@ -16,11 +16,13 @@
         public Guid SenderId
         {
             get { return _senderId; }
+            set { _senderId = value; }
         }
 
         public Guid ReceiverId
         {
             get { return _receiverId; }
+            set { _receiverId = value; }
         }
 
         public string Content

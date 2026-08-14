@@ -6,7 +6,13 @@
         private string _firstname;
         private string  _lastname;
         private string _email;
+        private DateTime _createdAt;
 
+        public User()
+        {
+            _id = Guid.NewGuid();
+            _createdAt = DateTime.UtcNow;
+        }
         public User() { 
             _id = Guid.NewGuid();
         } 

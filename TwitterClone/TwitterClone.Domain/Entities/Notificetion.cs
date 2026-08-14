@@ -17,6 +17,7 @@
         public Guid UserId
         {
             get { return _userId; }
+            set { _userId = value; }
         }
 
         public string Message

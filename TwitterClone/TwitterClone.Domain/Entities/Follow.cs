@@ -9,12 +9,14 @@
             public Guid FollowerId
             {
                 get { return _followerId; }
+                 set { _followerId = value; }
             }
 
             public Guid FollowingId
             {
                 get { return _followingId; }
-            }
+                set { _followingId = value; }
+        }
 
             public DateTime FollowedAt
             {
